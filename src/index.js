@@ -1,4 +1,3 @@
-const {MongoClient, ServerApiVersion} = require("mongodb");
 (async () => {
     const { MongoClient, ServerApiVersion } = require('mongodb');
     const uri = process.env.MONGO_URI;
